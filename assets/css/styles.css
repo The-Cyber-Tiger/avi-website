@@ -290,7 +290,8 @@ a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 5rem 0 0rem 0;
+    margin: 5rem 0 0 0;
+    padding-bottom: 2rem;
 }
 .footer p{
     margin: 0;
@@ -549,6 +550,8 @@ a:hover{
     justify-content: center;
     align-items: center;
     margin: 18rem 0 0 0;
+    padding-bottom: 2rem;
+
 }
 .footer p{
     margin: 0;
