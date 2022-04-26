@@ -1,0 +1,560 @@
+/* --- Variables --- */
+:root{
+    --orange: #FE9800;
+    --dark: #464646;
+    --logo-font: "Wallpoet";
+    --main-font: "Play";
+}
+
+/* --- Main --- */
+    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: crosshair;
+}
+
+ 
+body {
+    font-family: var(--main-font), sans-serif;
+    font-size: 2.25rem;
+    height: 200vh;
+    justify-content: center;
+    perspective: 1000px;
+    color: white;
+    background-image: url("../img/subtle_carbon.png");
+    background-repeat: repeat;
+}
+
+h1 {
+    font-size: 1rem;
+    font-family: var(--logo-font);
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.4rem;
+    margin-top: 1.2rem;
+}
+
+h4 {
+    font-size: 1.2rem;
+    color: var(--dark);
+    margin-top: 1.2rem;
+}
+
+p {
+    color: var(--dark);
+    font-size: 1.2rem;
+    margin-top: 1.2rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--dark);
+    font-size: 1.2rem;
+}
+a:hover{
+    color: var(--orange);
+}
+
+.container{
+    margin: 3rem 2rem 1rem;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 8.5rem;
+}
+
+/* --- Project --- */
+    
+.project{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.robot{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.robot img{
+    width: 25rem;
+}
+
+.technologies{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+.labels{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.labels img{
+    width: 6rem;
+}
+.label-1{
+    margin: 2rem;
+}
+
+.label-2{
+    margin: 2rem;
+}
+
+.description p, h2 {
+   text-align: center;
+   color: white;
+}
+
+/* --- Interaction --- */
+
+.interaction{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.interaction h3{
+    color: var(--dark);
+}
+
+.interaction h3:hover{
+    color: var(--orange);
+    cursor: pointer;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title img{
+    width: 18.75rem;
+    margin-top: -1.875rem;
+}
+
+.specs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.spx{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.spx h3{
+    color: var(--orange);
+}
+
+.spx-d{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    background: rgba(254, 152, 0, 0.24);
+    border: 3px solid #FF7A00;
+    box-sizing: border-box;
+    border-radius: 15px;
+    width: 300px;
+    height: 300px;
+    margin: 1rem 0;
+    position: relative;
+}
+.spx-d p{
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+    margin: 2rem 1rem;
+}
+
+.spx-d svg{
+    position: absolute;
+    top: 200px;
+    width: 50px;
+    margin-top: 4rem;
+    margin-right: 1rem;
+}
+
+/* --- Rewards --- */
+
+.rewards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.rewards a{
+    color: var(--orange);
+}
+
+.rewards a:hover{
+    color: var(--orange);
+}
+
+.rewards img{
+    width: 10rem;
+}
+
+.rewards-box{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.rw-text{
+    margin: 1rem;
+    text-align: center;
+}
+
+.linkx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.linkx svg{
+    margin-right: 0.5rem;
+}
+
+/* --- About --- */
+
+.about{
+    margin-top: 5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-text{
+    text-align: center;
+    padding: 0 1rem 0;
+}
+
+.about-text p{
+    color: white;
+}
+
+.about a{
+    color: var(--orange);
+}
+
+.about a:hover{
+    color: var(--orange);
+}
+
+#avi-end {
+    margin-top: 3rem;
+    width: 70px;
+}
+
+/* --- Footer --- */
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0 0rem 0;
+}
+.footer p{
+    margin: 0;
+}
+.footer svg{
+    margin-right: 1rem;
+}
+
+/* +++++ MQ +++++ */
+@media (min-width: 992px) {
+.ball {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        z-index: -1;
+        background: rgba(254, 152, 0, 0.24);
+        border: 3px solid #FF7A00;
+        border-radius: 50%;
+    }
+    
+h1 {
+    font-size: 2rem;
+    font-family: var(--logo-font);
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.7rem;
+    margin-top: 2rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+    color: var(--dark);
+    margin-top: 2rem;
+}
+
+p {
+    color: var(--dark);
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--dark);
+    font-size: 1.7rem;
+}
+
+a:hover{
+    color: var(--orange);
+}
+
+.container{
+    margin: 3rem 5rem 1rem;
+}
+    
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 40%;
+}
+
+.logo img{
+    width: 9.5rem;
+}
+    
+/* --- Project --- */
+
+.project{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.robot{
+    display: flex;
+    flex-direction: column;
+}
+
+.robot img{
+    width: 800px;
+}
+
+.technologies{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem;
+    padding-right: 200px;
+}
+
+.labels{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.labels img{
+    width: 128px;
+}
+
+.label-1{
+    margin: 2rem;
+}
+
+.label-2{
+    margin: 2rem;
+}
+
+.description p, h2 {
+    text-align: center;
+    color: white;
+}
+
+/* --- Interaction --- */
+
+.title img{
+    width: 700px;
+    margin-top: -80px;
+}
+
+.specs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: -8rem;
+}
+
+.spx{
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.spx:nth-child(2){
+    margin-top: 8rem;
+}
+
+.spx h3{
+    color: var(--dark);
+}
+
+.spx-d{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    background: rgba(254, 152, 0, 0.24);
+    border: 3px solid #FF7A00;
+    box-sizing: border-box;
+    border-radius: 15px;
+    width: 300px;
+    height: 300px;
+    margin: 1rem 0;
+    position: relative;
+}
+
+.spx-d p{
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+    margin: 2rem 1rem;
+}
+
+.spx-d svg{
+    position: absolute;
+    top: 200px;
+    width: 50px;
+    margin-top: 4rem;
+    margin-right: 1rem;
+}
+
+/* --- Rewards --- */
+
+.rewards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.rewards a{
+    color: var(--dark);
+}
+
+.rewards img{
+    width: 70%;
+}
+
+.rewards-box{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.rw-text{
+    margin: 1rem;
+    text-align: center;
+}
+
+.linkx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.linkx svg{
+    margin-right: 0.5rem;
+}
+
+/* --- About --- */
+
+.about{
+    margin-top: 8rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-text{
+    text-align: center;
+    padding: 0 20rem 0;
+}
+
+.about a{
+    color: var(--dark);
+}
+
+.about-text p{
+    color: white;
+}
+#avi-end {
+    margin-top: 1rem;
+    width: 70px;
+}
+
+/* --- Footer --- */
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 18rem 0 0 0;
+}
+.footer p{
+    margin: 0;
+}
+.footer svg{
+    margin-right: 1rem;
+}
+    
+}
